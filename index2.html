@@ -1,0 +1,100 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <title>Wire frames</title>
+  <meta charset="utf-8">
+
+  <title>Tabbed Layout exercise</title>
+  <meta name="description" content="Layout exercise">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="css/default.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/demo.css">
+  <style>
+      .email{
+          padding:10px;
+          padding-left:87px;
+      }
+      .password{
+          padding:10px;
+          padding-left:65px;
+      }
+      .re-enter{
+          padding:10px;
+          padding-left:5px;
+      }
+      #email,#password,#re-enter-password,#phone{
+          padding:8px;
+          width:20%;
+      }
+      .news{
+          padding-left:50px;
+      }
+      .stay{
+          padding-left:0px;
+         margin-right:0px;
+      }
+      .percent{
+    position:relative;
+    bottom:20px;
+    left:-20px;
+    padding:16px;
+    float:left;
+    width:25%;
+    height:8px;
+    background-color: #d4d6d5;
+}
+#weekly-news,#monthly-news,#dont-send-me-news{
+    width:1%;
+    padding:6px;
+}
+  </style>
+
+</head>
+<body>
+    <div id="first">
+        <div class="one"><span id="logo">logo</span></div>
+        <div class="one"><span id="navigation">navigation</span></div>
+    </div>
+    <h1>Sign up to yourcustomtailor.com</h1>
+<h2>Step 2/4-tell us how we can reach you?</h2>
+<p>Progress</p>
+<div class="progress">
+    <div class="progress-bar"style="width:60%"></div>
+    <span class="percent"></span>
+</div>
+<p class="stay">We wil probably need to stay in touch somehow.Let us know how we can reach you?</p>
+<form>
+    <div class="email">
+    <label for="email">Email*</label>
+    <input required type="text" id="email" name="user_mail">
+    <label for="phone">Phone</label>
+    <input type="text"id="phone"name="user-phone">
+</div>
+    <div class="password">
+        <label for="password">Password*</label>
+        <input required type="password" id="password" name="user_password">
+ </div>
+ <div class="re-enter">
+    <label for="re-enter password">Re-enter password*</label>
+    <input required type="text" id="re-enter-password" name="user_re-enter_password">
+     </div>
+     <p>I want to sign up for the newsletter</p>
+    <div class="news">
+        <label for="weekly news">Weekly news</label>     
+    <input type="grid container"  id="weekly-news" name="user_news">
+    <label for="Monthly news">Monthly news</label>     
+    <input type="grid container"  id="monthly-news" name="user_news">
+    <label for="dont send me news">Dont send me news</label>     
+    <input type="grid container"  id="dont-send-me-news" name="user_news">
+    </div>
+    <div>
+            <form>
+                    <input class="MyButton" type="button" value="Next step" onclick="window.location.href='index3.html'" />
+                    </form>
+    </div>   
+</form>
+</body>
+</html>

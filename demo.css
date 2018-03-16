@@ -1,0 +1,93 @@
+body{
+    border:1px solid;
+    margin:10px;
+    padding:15px;
+}
+.one{
+    float:left;
+width:50%;
+margin:0px;
+padding:0px;
+}
+#first{
+    margin-top:30px;
+    margin-left:60px;
+    width:80%;
+    padding:70px;
+    padding-left:150px;
+   }
+   /*#progress{
+    width:90%;
+    margin:0px;
+    padding:8px;
+}*/
+.progress{
+   border:1px solid;
+   padding:20px;
+  padding_left:0px;
+}
+.percent{
+    position:relative;
+    bottom:20px;
+    left:-20px;
+    padding:16px;
+    float:left;
+    width:10%;
+    height:8px;
+    background-color: #d4d6d5;
+}
+#logo{
+    border:1px solid;
+    font-size:1.5em;
+    padding:40px;
+    background-color: #d4d6d5;
+}
+#navigation{
+border:1px solid;
+    font-size:1.5em;
+    padding:40px;
+    padding-right:300px;
+    background-color: #d4d6d5;
+}
+.name{
+    padding:10px;
+    padding-left:40px;
+}
+#first-name,#last-name,#street-address,#post-code{
+    padding:8px;
+    width:20%;
+}
+#country{
+    padding:8px;
+    width:15%;
+}
+.country-c{
+    padding:15px;
+    padding-left:55px;
+}
+.street{
+    padding:10px;
+    padding-left:20px;
+}
+
+.MyButton{
+margin-left:90%;
+width:10%;
+background-color: #d4d6d5;
+height:50px;
+
+}
+.input-text{
+    float:right;
+    margin-left:500px;
+    clear:both;
+}
+#shipping-address{
+    width:1%;
+}
+#profile-description{
+    float:right;
+    position:relative;
+
+}
+

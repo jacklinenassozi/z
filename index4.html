@@ -1,0 +1,109 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <title>Wire frames</title>
+  <meta charset="utf-8">
+
+  <title>Tabbed Layout exercise</title>
+  <meta name="description" content="Layout exercise">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="css/default.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/demo.css">
+  <style>
+      body{
+          border:1px solid;
+          margin:10px;
+          padding:15px;
+      }
+      .progress{
+        animation: 1.5s ease-out 0s 1 slideInRight;
+      }
+.card{
+    padding:10px;
+    padding-left:75px;
+}
+.card-type{
+    padding:15px;
+    padding-left:100px;
+}
+.credit{
+    padding:10px;
+    padding-left:40px;
+}
+.month{
+    padding:10px;
+    padding-left:72px;
+}
+.ccv{
+    padding:10px;
+    padding-left:140px;
+}
+#name-on-card,#card-type,#credit-card-number{
+    padding:8px;
+    width:20%;
+}
+
+.percent{
+    position:relative;
+    bottom:20px;
+    left:-20px;
+    padding:16px;
+    float:left;
+    width:85%;
+    height:8px;
+    background-color: #d4d6d5;
+}
+#expiry-month,#expiry-year,#ccv{
+    padding:8px;
+    width:1%;
+}
+  </style>
+
+</head>
+<body>
+    <div id="first">
+        <div class="one"><span id="logo">logo</span></div>
+        <div class="one"><span id="navigation">navigation</span></div>
+    </div>
+    <h1>Sign up to yourcustomtailor.com</h1>
+<h2>Step 4/4-tell us how we can reach you?</h2>
+<div class="progress">
+    <div class="progress-bar"style="width:0%"></div>
+    <span class="percent"></span>
+</div>
+<p>Please fill in your payment data</p>
+<form>
+    <div class="card">
+    <label for="name on card">Name on card</label>
+    <input type="text" id="name-on-card" name="user_name on card">
+</div>
+    <div class="card-type">
+    <label for="card type">Card type</label>
+    <input type="text"id="card-type"name="user- type card">
+</div>
+    <div class="credit">
+        <label for="credit card number">Credit card number</label>
+        <input type="number" id="credit-card-number" name="user_credit card number">
+        <label for="first name">First name</label>
+        <input type="text" id="first-name" name="user_first name">
+
+ </div>
+    <div class="month"> 
+        <label for="Expiry month">Expiry month</label>     
+    <input type="flexbox"  id="expiry-month" name="user_expiry month" cols="4" rows="2">
+    <label for="expiry year">Expiry year</label>     
+    <input type="flexbox"  id="expiry-year" name="user_expiry year">
+</div>
+    <div class="ccv">
+    <label for="ccv">ccv</label>     
+    <input type="flexbox"  id="ccv" name="user_ccv">
+    </div>
+    <form>
+    <input class="MyButton" type="button" value="Next step" onclick="window.location.href='index4.html'" />
+</form>
+</form>
+</body>
+</html>
